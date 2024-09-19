@@ -1,4 +1,4 @@
-package br.net.generallinhares.controleimoveis;
+package br.net.gest.sys;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(ControleImoveisApplication.class);
+		return application.sources(GestaoBensApplication.class);
 	}
 
 }

@@ -1,13 +1,13 @@
-package br.net.generallinhares.controleimoveis;
+package br.net.gest.sys;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ControleImoveisApplication {
+public class GestaoBensApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ControleImoveisApplication.class, args);
+		SpringApplication.run(GestaoBensApplication.class, args);
 	}
 
 }
