@@ -14,8 +14,6 @@ public class GestaoBensApplicationTests {
 	@Autowired
 	private AcessoController acessoController;
 	
-	@Autowired
-	private AcessoRepository acessoRepository;
 	
 	@Test
 	public void testeCadastraAcesso() {
