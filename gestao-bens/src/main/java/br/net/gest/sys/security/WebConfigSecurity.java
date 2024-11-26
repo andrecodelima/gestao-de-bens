@@ -37,6 +37,7 @@ public class WebConfigSecurity {
 	        .authorizeHttpRequests(auth -> auth
 	            .requestMatchers(HttpMethod.POST, "/saveAcesso").permitAll() // Permite acesso sem autenticação
 	            .requestMatchers(HttpMethod.GET, "/acessos").permitAll() // Permite acesso sem autenticação
+	            .requestMatchers(HttpMethod.DELETE, "/acessos", "/deleteAcesso").permitAll() // Permite acesso sem autenticação
 	            .anyRequest().authenticated() // Exige autenticação para outras URLs
 	        );
 	    return http.build();
