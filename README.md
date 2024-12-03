@@ -1,2 +1,2 @@
-# controle-empresa
-Projeto final do curso de full-stack da Step Computer Academy.
+# Gestao de Bens 
+Sistema de controle e gerenciamento de bens que incluem, imoveis e veículos.
